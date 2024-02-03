@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/FunctionSpeedTest/main.cpp
+/FunctionSpeedTest/TestFunctions.h
+
+# Input, Output folders
+/FunctionSpeedTest/Input/
+/FunctionSpeedTest/Output/
+/FunctionSpeedTest/TestFunctions.h
+/FunctionSpeedTest/main.cpp
