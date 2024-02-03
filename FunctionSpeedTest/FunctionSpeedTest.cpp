@@ -64,8 +64,8 @@ int FunctionSpeedTest::test(std::vector<chr::microseconds> *times_ptr) const
 			std::cout.rdbuf(cout_stream_buffer);
 
 			// 실행 시간 출력
-			std::cout << "Execution time of " << entry.path().filename()
-					  << ": " << get_ms_str(execution_time) << std::endl;
+			std::cout << "Execution time of " << entry.path().filename() 
+				<< ": " << get_ms_str(execution_time) << std::endl;
 		}
 	}
 
