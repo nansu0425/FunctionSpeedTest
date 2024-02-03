@@ -129,11 +129,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="FunctionSpeedTest.h" />
-    <ClInclude Include="TestFunctions.h" />
+    <ClInclude Include="TargetFunctions.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunctionSpeedTest.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TargetFunctions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

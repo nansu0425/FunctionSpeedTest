@@ -18,7 +18,7 @@
     <ClInclude Include="FunctionSpeedTest.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="TestFunctions.h">
+    <ClInclude Include="TargetFunctions.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -27,6 +27,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetFunctions.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

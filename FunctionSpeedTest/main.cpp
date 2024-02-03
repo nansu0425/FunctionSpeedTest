@@ -1,9 +1,9 @@
 #include "FunctionSpeedTest.h"
-#include "TestFunctions.h"
+#include "TargetFunctions.h"
 
 int main()
 {
-	// test target funtion 
+	// 각 입력 파일에 대해 target 함수 100번 테스트
 	FunctionSpeedTest fst(target_function, 100);
 	fst.test();
 
