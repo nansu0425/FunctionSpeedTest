@@ -20,9 +20,10 @@ public:
 
 	int test(std::vector<chr::microseconds> *times_ptr = nullptr) const;
 private:
-	chr::microseconds get_execution_time(std::vector<chr::microseconds> *&times_ptr_ref,
-										 std::ofstream *ofs_ptr, 
-										 std::ifstream *ifs_ptr = nullptr) const;
+	chr::microseconds get_execution_time(
+		std::vector<chr::microseconds> *&times_ptr_ref, 
+		std::ofstream *ofs_ptr, 
+		std::ifstream *ifs_ptr = nullptr) const;
 	std::string get_ms_str(chr::microseconds &execution_time) const;
 };
 

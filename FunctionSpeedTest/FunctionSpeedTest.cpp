@@ -29,8 +29,8 @@ int FunctionSpeedTest::test(std::vector<chr::microseconds> *times_ptr) const
 		std::streambuf *cout_stream_buffer{ std::cout.rdbuf(output_file_stream.rdbuf()) };
 
 		// target 함수의 microseconds 단위 실행 시간을 얻는다
-		chr::microseconds execution_time{ get_execution_time(times_ptr, 
-															&output_file_stream) };
+		chr::microseconds execution_time{ 
+			get_execution_time(times_ptr, &output_file_stream) };
 
 		// 출력 파일 스트림을 닫는다
 		output_file_stream.close();
@@ -52,9 +52,8 @@ int FunctionSpeedTest::test(std::vector<chr::microseconds> *times_ptr) const
 			std::streambuf *cout_stream_buffer{ std::cout.rdbuf(output_file_stream.rdbuf()) };
 
 			// target 함수의 microseconds 단위 실행 시간을 얻는다
-			chr::microseconds execution_time{ get_execution_time(times_ptr, 
-																&output_file_stream,
-																&input_file_stream) };
+			chr::microseconds execution_time{ 
+				get_execution_time(times_ptr, &output_file_stream, &input_file_stream) };
 
 			// 입출력 파일 스트림을 닫는다
 			input_file_stream.close();
@@ -126,6 +125,8 @@ std::string FunctionSpeedTest::get_ms_str(chr::microseconds &execution_time) con
 
 	// 반복 종료 인덱스
 	auto end_idx{ time_str.length() - 3 };
+
+	// "." 삽입
 	time_str.insert(end_idx, ".");
 
 	// "," 삽입
