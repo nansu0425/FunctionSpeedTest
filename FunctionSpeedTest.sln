@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FunctionSpeedTest", "FunctionSpeedTest\FunctionSpeedTest.vcxproj", "{99C348B7-AE19-4E5B-9FA6-DD73F8E87849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99C348B7-AE19-4E5B-9FA6-DD73F8E87849}.Debug|x64.ActiveCfg = Debug|x64
+		{99C348B7-AE19-4E5B-9FA6-DD73F8E87849}.Debug|x64.Build.0 = Debug|x64
+		{99C348B7-AE19-4E5B-9FA6-DD73F8E87849}.Debug|x86.ActiveCfg = Debug|Win32
+		{99C348B7-AE19-4E5B-9FA6-DD73F8E87849}.Debug|x86.Build.0 = Debug|Win32
+		{99C348B7-AE19-4E5B-9FA6-DD73F8E87849}.Release|x64.ActiveCfg = Release|x64
+		{99C348B7-AE19-4E5B-9FA6-DD73F8E87849}.Release|x64.Build.0 = Release|x64
+		{99C348B7-AE19-4E5B-9FA6-DD73F8E87849}.Release|x86.ActiveCfg = Release|Win32
+		{99C348B7-AE19-4E5B-9FA6-DD73F8E87849}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE4548E6-B582-4FAC-B9CE-0232843998E3}
+	EndGlobalSection
+EndGlobal
